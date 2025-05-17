@@ -5,7 +5,7 @@ import Illustration from "../../assets/illustration.svg"
 import { NavHashLink } from "react-router-hash-link"
 import linkedin from '../../assets/linkedin.svg'
 import githubIcon from '../../assets/github.svg'
-import whatsapp from '../../assets/whatsapp.svg'
+
 import Hello from '../../assets/Hello.gif'
 export function Hero() {
   return (
@@ -21,7 +21,7 @@ export function Hero() {
           <h3>Full Stack Developer</h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
-          <p className="small-resume">2nd Years of B.Tech CSBS</p>
+          <p className="small-resume">2nd-year student pursuing B.Tech in CSBS</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
           <BrowserRouter>
@@ -43,13 +43,7 @@ export function Hero() {
         >
           <img src={githubIcon} alt="GitHub" />
         </a>
-        <a
-          href="https://api.whatsapp.com/send/?phone=%2B917550121481&text=Hello+Anand V"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={whatsapp} alt="Whatsapp" />
-        </a>
+        
         </div>
         </ScrollAnimation>
       </div>

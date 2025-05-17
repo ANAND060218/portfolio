@@ -38,7 +38,7 @@ export function Project() {
               <div className="project-links">
                 <a href="https://github.com/ANAND060218/Buisness_Bot" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" /> </a>
-                <a href="https://ai-chatbot-t8fn.onrender.com" target="_blank" rel="noreferrer">
+                <a href="https://ai-chatbot-fn.onrender.com" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" /></a>
               </div>
             </header>
